@@ -36,17 +36,16 @@
     </style>
 </head>
 <body>
-
+    
+</body>
     <h1>K-Culture Hub</h1>
     <div class="container">
         <button onclick="showDictionary()">Dicționar Coreean</button>
         <button onclick="showKdramas()">K-Dramas</button>
         <button onclick="showKpop()">K-Pop</button>
         <button onclick="showNews()">Știri</button>
-
         <div id="output"></div>
     </div>
-
     <script>
         function showDictionary() {
             document.getElementById("output").innerHTML = `
@@ -56,7 +55,6 @@
                 <p>사랑해요 - Te iubesc</p>
             `;
         }
-
         function showKdramas() {
             document.getElementById("output").innerHTML = `
                 <h2>K-Dramas Populare</h2>
@@ -68,7 +66,6 @@
                 </ul>
             `;
         }
-
         function showKpop() {
             document.getElementById("output").innerHTML = `
                 <h2>Artiști K-Pop</h2>
@@ -80,7 +77,6 @@
                 </ul>
             `;
         }
-
         function showNews() {
             document.getElementById("output").innerHTML = `
                 <h2>Ultimele Știri</h2>
